@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;   
+}
+.design{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.657);
+}
+p{
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 18px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col img{
+     max-width: 100%;
+     padding: 50px 0px;
+     height: 540px;
+     
+}
+.col h1{
+    font-size: 55px;
+    line-height: 55px;
+    margin: 20px 0px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+    margin-top: 70px ;
+}
+.btn:hover{
+    background: #563434;
+}
+.icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 4px 0px 2px;
+    max-width: 200%;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.bottom{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #ffd6d6;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #333;
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+    .row{
+        text-align: center;
+    }
+    .col{
+        flex-basis: 100%;
+    }
+}
+
+
+/*---------------------------------------view page -------------------------------------------------------*/
+.table
+{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+}
+.transfer
+{
+    width:97%;
+    height:80%;
+    padding:20px 0 0 0;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,0.03);
+    border-radius:10px;
+    margin-left:30px;
+}
+table
+{
+    border-collapse:collapse;
+    background-color:black;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,0.03);
+    border-radius: 10px;
+    border-collapse:collapse;
+    table-layout:fixed;
+    opacity:0.6;
+    color:#F7CC1A;
+    font-weight:bold;
+    margin:auto;
+}
+th,td
+{
+  border:1px solid #f2f2f2;
+   padding:8px 30px;
+  text-align:center;
+  opacity:0.9;
+  color:blanchedalmond ; 
+}
+th{
+    text-transform:uppercase;
+    font-weight:500;
+    color: chocolate;
+    font-size: 20px;
+    width: 20%;
+    text-decoration: underline;
+}
+td
+{
+    font-size:17px;
+}
+.small{
+    color: red;
+    font-size: 18px;
+}
+.new{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+/*---------------------------------------------transaction page ------------------------------------------------*/
+.text{
+    width: 28%;
+    font-size: 19px;
+}
+.centre{
+    font-size: 18px;
+}
+.form{
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid chocolate;
+    outline: none;
+    font-size: 17px;
+    color: firebrick;
+}
+.para{
+    font-size: 24px;
+    text-decoration: underline;
+    padding: 8px;
+
+}
+.wrapper{
+    text-align: center;
+}
+.mid{
+    font-size: 17px;
+    border-radius: 9px;
+    transition: background 0.5s;
+    transform: translateY(-5px);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.complete{
+    color: white;
+}
+.form1{
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid chocolate;
+    outline: none;
+    font-size: 17px;
+    color: firebrick;
+}
+::placeholder{
+    color: firebrick;
+    opacity: 0.7;
+}
+
+
+
+
