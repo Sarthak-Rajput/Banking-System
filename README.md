@@ -4,9 +4,9 @@
  
 Features:-
   1. Customers:-
-      > There are 10 customers in the bank among which you can transfer money
-      > There is a view option in the navigation bar which will show you all the customers, their email, current balance
-      > You can transfer money to other users from that page too
+      - There are 10 customers in the bank among which you can transfer money
+      - There is a view option in the navigation bar which will show you all the customers, their email, current balance
+      - You can transfer money to other users from that page too
   
   2. Transfer of money:-
       > There is a transfer money button on the home page which will redirect you to the transfer money page
