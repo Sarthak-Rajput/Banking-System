@@ -22,4 +22,4 @@ Features:-
 
 
 
-You can watch the live demo of the website - https://multilobed-hinges.000webhostapp.com/index.php
+
